@@ -1,0 +1,379 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Arimo', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.MenuList{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.MenuListL{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40%;
+    align-items: center;
+}
+
+.MenuHead{
+    font-family: 'Kanit', sans-serif;
+    color: #59595b;
+    font-weight: 600;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.MenuListSearch{
+    display: flex;
+    justify-content: space-between;
+}
+
+.MenuList1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    color: #4a4a4a;
+    margin-left: 10%;
+    font-weight: 600;
+    margin-top: 40px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.MenuList2{
+    margin-left: 40px;
+    margin-top: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.MenuList1:hover {
+    border-bottom: solid 2px #6ba439;
+
+}
+
+.img1{
+    vertical-align: middle;
+}
+
+.BoxAbout{
+    background-image: url(../Img/img3.jpg);
+    background-size: 1300px;
+    padding-bottom: 5%;
+}
+
+.BoxAboutH{
+    color: white;
+    margin-left: 15px;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.BoxAboutF{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 50%;
+    text-align: left;
+    color: white;
+    position: relative;
+}
+
+h1{
+    font-family: 'Arimo', sans-serif;
+    font-size: 40px;
+    margin-left: 15px;
+}
+
+.para{
+    font-size: 18px;
+    line-height: 1.5em;
+    margin-left: 15px;
+}
+
+.BoxAboutS{
+    background-color: #6ba439;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 5px;
+    flex-direction: row;
+    width: 70%;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+.BoxQues{
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.image{
+    vertical-align: middle;
+}
+
+h2{
+    font-size: 25px;
+    margin-left: 10%;
+    margin-top: 8%;
+}
+
+.BoxMain{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    justify-content: space-between;
+}
+
+.para1{
+    font-family: 'Karla', sans-serif;
+    line-height: 1.5em;
+    text-align: left;
+    margin-right: 10%;
+    font-size: 15px;
+}
+
+.para2{
+    font-family: 'Karla', sans-serif;
+    line-height: 1.5em;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 10%;
+    font-size: 15px;
+}
+
+.Footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #0d2934;
+    margin-top: 10%;
+    padding-top: 3%;
+    padding-right: 5%;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    font-size: 18px;
+    line-height: 2em;
+    color: white;
+}
+
+.colorg{
+    color: #4d8a17;
+}
+
+.FooterF{
+    color: white;
+    font-size: 18px;
+}
+
+.share-btn-container{
+    display: flex;
+    margin-top: 5%;
+    margin-left: -15%;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.share-btn-container a i{
+    font-size: 20px;
+    text-align: center;
+}
+.share-btn-container .fa-facebook-f {
+    color: #0d2934;
+    background-color: white;
+    padding-top: 25%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: -25%;
+    margin-right: 30px;
+    border-radius: 30px;
+    font-size: 30px;
+    cursor: pointer;
+    
+}
+.share-btn-container .fa-twitter {
+    color: #0d2934;
+    background-color: white;
+    margin-left: 40px;
+    margin-right: 30px;
+    padding: 10%;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.share-btn-container .fa-linkedin {
+    color: #0d2934;
+    background-color: white;
+    padding: 18%;
+    margin-right: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.share-btn-container .fa-youtube {
+    color: #0d2934;
+    background-color: white;
+    padding: 18%;
+    margin-right: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.color{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.BoxContact{
+    background-image: url(../Img/img7.jpg);
+    background-size: 1300px;
+    padding-bottom: 5%;
+}
+
+.color1{
+    color: #4d8a17;
+    font-weight: normal;
+}
+
+.para3{
+    font-family: 'Karla', sans-serif;
+    line-height: 1.5em;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 10%;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.para4{
+    font-family: 'Karla', sans-serif;
+    line-height: 1.5em;
+    text-align: left;
+    margin-left: 13.5%;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.borderright{
+    border-right: solid 5em;
+}
+.BoxMain1{
+    display: flex;
+    margin-left: 5%;
+    margin-bottom: -1%;
+    flex-direction: row;
+}
+
+.para5{
+    font-family: 'Karla', sans-serif;
+    line-height: 1.5em;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 10%;
+    font-size: 20px;
+}
+
+.borderright{
+    border-right: solid 1em;   
+}
+
+iframe{
+    margin-top: 5%;
+    width: 100%;
+}
+
+.FooterContact{
+    background-color: #0d2934;
+}
+
+.FooterContact1{
+    display: flex;
+    flex-direction: row;
+    background-color: #0d2934;
+    margin-top: 0%;
+    padding-top: 3%;
+    padding-right: 5%;
+    justify-content: space-between;
+}
+
+.borderbottom{
+    border-bottom: solid 0.05em #fcfcfc;
+}
+
+.borderbottom1{
+    border-bottom: solid 0.008em lightgray;
+    margin-top: -2%;
+}
+
+.FooterCenter{
+    text-align: center;
+    color: white;
+    padding-bottom: 2%;
+}
+
+.MainTerms{
+    font-size: 15%px;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.border{
+    width: 30%;
+    border: solid 0.01em lightgray;
+    margin-left: 15px;
+    margin-top: 3%;
+}
+
+.TermsList{
+    background-color: white;
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.TermsList1{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    color: #4a4a4a;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.borderbottomx:hover{
+    background-color: #e4e4e4;
+}
+
+
+.borderbottomx{
+    border-bottom: solid 0.1em lightgray;
+    background-color: #f2f2f2;
+}
+
+.borderbottomy{
+    border-bottom: solid 0.1em lightgray;
+    background-color: white;
+}
+
+
+
+.para6{
+    font-size: 18px;
+    line-height: 1.5em;
+    margin-left: 15px;
+    text-align: justify;
+}
+
+h3{
+    font-family: 'Arimo', sans-serif;
+    font-size: 30px;
+    margin-left: 15px;
+}
+
